@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimuth's Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg'); /* <a href="https://imgbb.com/"><img src="https://i.ibb.co/9Hwk6xb/IMG-9328.jpg" alt="IMG-9328" border="0"></a>  */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            padding: 10px 15px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: white;
+            color: black;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            margin: 20px;
+            border-radius: 10px;
+        }
+        .container h2 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: relative;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Dimuth's Website</h1>
+    <p>Your personal space on the web</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Dimuth! I'm passionate about [your interests]. This is my personal website.</p>
+</div>
+
+<div class="container" id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Here is some of my work or projects:</p>
+    <ul>
+        <li>Project 1</li>
+        <li>Project 2</li>
+        <li>Project 3</li>
+    </ul>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: dimuthdinuka2@gmail.com</p>
+    <p>Phone: +94717845122</p>
+</div>
+
+<footer>
+    <p>© 2024 Dimuth's Website. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
